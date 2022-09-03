@@ -56,7 +56,7 @@ header{
 
 .nav__hamburger{
     width: 2rem;
-    height: 2rem;
+    height: auto;
     margin-left: 0.5rem;
 }
 
