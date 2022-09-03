@@ -121,14 +121,16 @@ header{
 .side__menu{
     background-color: var(--main);
     color: var(--white);
-    height: 100vh;
-    padding-top: 20%;
+    height: 130vh;
+    padding-top: 5%;
     padding-left: 5%;
     width: 50vw;
     position: absolute;
     z-index: 2;
     transform: translateX(-100%);
     transition: all .3s ease-in;
+    display: block;
+    
 }
 
 .show__menu {
@@ -144,7 +146,7 @@ header{
 }
 .side__menu ul li {
     color: var(--white);
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 
@@ -172,5 +174,10 @@ header{
 
   .side__menu {
     width: 28vw;
+    height: 180vh;
+    
+  }
+  .side__menu ul li {
+    font-size: 2rem;
   }
 }
