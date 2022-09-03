@@ -59,6 +59,9 @@ header{
     height: auto;
     margin-left: 0.5rem;
 }
+.nav__hamburger:hover{
+  cursor: pointer;
+}
 
 .nav__title{
     color: var(--white);
