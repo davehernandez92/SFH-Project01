@@ -1,0 +1,32 @@
+<%- include("header") -%>
+<div class="container">
+
+    <h1 class="heading">Book a Trip</h1>
+    <span class="heading__span"></span>
+    <form class="form" action="/submit" method="post">
+        
+        <div class="form__wrapper">
+            <label for="email">Email</label>
+            <input class="emailInput" type="email" name="Email">
+        </div>
+
+        <div class="form__wrapper">
+            <label for="locations">Locations</label>
+            <select class="input" name="locations" id="locations">
+                <option value="none" selected disabled hidden>Select an Option</option>
+                <option value="Halifax">Halifax</option>
+                <option value="Sidney">Sidney</option>
+            </select>
+        </div>
+
+        <div class="form__wrapper">
+            <label for="date">Trip date:</label>
+            <input class="dateInput" type="date" id="tripDate" name="tripDate">
+        </div>
+
+        <input id="submitButton" type="submit" name="submit" value="Submit">
+      </form>
+
+</div>
+
+<%- include("footer") -%>
